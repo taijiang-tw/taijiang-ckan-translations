@@ -6825,3 +6825,51 @@ msgstr "清除"
 #: ckanext/spatial/templates/spatial/snippets/dataset_map_sidebar.html:17
 msgid "Dataset extent"
 msgstr "空間範圍"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:189
+msgid "Public/Private"
+msgstr "公開/非公開"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:270
+msgid "Tabular"
+msgstr "表格資料"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:273
+msgid "Total Number of datasets"
+msgstr "資料集總數"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:374
+msgid "Recent Datasets"
+msgstr "最近的資料集"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:375
+msgid "User Access List"
+msgstr "使用者存取權限清單"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:380
+msgid "Datasets by Organization"
+msgstr "資料集數量 (組織別)"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:381
+msgid "Datasets by Project"
+msgstr "資料集數量 (子計劃別)"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:382
+msgid "Datasets by Data Type"
+msgstr "資料集數量 (資料類型別)"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:383
+msgid "Resources by Organization"
+msgstr "資料數量 (組織別)"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:384
+msgid "Resources by Format"
+msgstr "資料數量 (檔案類型別)"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:385
+msgid "Most Active Organisations"
+msgstr "最活躍的組織"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:386
+msgid "Site Analytics"
+msgstr "網站統計"
