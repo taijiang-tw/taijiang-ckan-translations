@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: CKAN\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-12-13 11:40+0000\n"
-"PO-Revision-Date: 2014-07-04 21:52+0800\n"
+"PO-Revision-Date: 2014-10-28 17:33+0800\n"
 "Last-Translator: \n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/ckan/"
 "language/zh_TW/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ckan/new_authz.py:189
 #, python-format
@@ -6452,6 +6452,10 @@ msgstr "計畫主網站"
 msgid "Contact us"
 msgstr "聯絡信箱"
 
+#: ckanext/taijiang/templates/header.html:123
+msgid "Site Statistics"
+msgstr "網站統計"
+
 #: ckanext/taijiang/templates/home/snippets/promoted.html:6
 msgid ""
 "Portuguese Drawing about Dutch Activities around Tayouan of Formosa-Taiwan."
@@ -6712,26 +6716,8 @@ msgstr "所屬子計畫"
 msgid "Temporal Resolution"
 msgstr "時間解析度"
 
-#~ msgid "Min. of Wave Band"
-#~ msgstr "波段最小值"
-
-#~ msgid "Max. of Wave Band"
-#~ msgstr "波段最大值"
-
-#~ msgid "Bit of Wave Band"
-#~ msgstr "波段位元值"
-
-#~ msgid "Reference URI"
-#~ msgstr "參考網址"
-
-#~ msgid "Extented Info"
-#~ msgstr "延伸資訊"
-
 msgid "This will be guessed automatically. Leave blank if you wish"
 msgstr "通常狀況下將被自動猜測。可以保持空白。"
-
-#~ msgid "Theme Keywords"
-#~ msgstr "主題關鍵字"
 
 #: ckanext/taijiang/templates/package/snippets/package_book_fields.html:26
 #: ckanext/taijiang/templates/snippets/extended_fields.html:7
@@ -6826,6 +6812,10 @@ msgstr "清除"
 msgid "Dataset extent"
 msgstr "空間範圍"
 
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:43
+msgid "New/Modified"
+msgstr "新增/修改"
+
 #: ckanext/dga_stats/templates/ckanext/stats/index.html:189
 msgid "Public/Private"
 msgstr "公開/非公開"
@@ -6835,8 +6825,16 @@ msgid "Tabular"
 msgstr "表格資料"
 
 #: ckanext/dga_stats/templates/ckanext/stats/index.html:273
-msgid "Total Number of datasets"
-msgstr "資料集總數"
+msgid "Total Number of Resources"
+msgstr "資料總數"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:299
+msgid "Number of Resources"
+msgstr "資料數目"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:324
+msgid "Number of datasets updated recently"
+msgstr "最近更新的資料集數"
 
 #: ckanext/dga_stats/templates/ckanext/stats/index.html:374
 msgid "Recent Datasets"
@@ -6864,12 +6862,54 @@ msgstr "資料數量 (組織別)"
 
 #: ckanext/dga_stats/templates/ckanext/stats/index.html:384
 msgid "Resources by Format"
-msgstr "資料數量 (檔案類型別)"
+msgstr "資料數量 (檔案格式別)"
 
 #: ckanext/dga_stats/templates/ckanext/stats/index.html:385
-msgid "Most Active Organisations"
+msgid "Most Active Organizations"
 msgstr "最活躍的組織"
 
 #: ckanext/dga_stats/templates/ckanext/stats/index.html:386
 msgid "Site Analytics"
-msgstr "網站統計"
+msgstr "網站分析"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:354
+msgid "Measure"
+msgstr "項目"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:354
+msgid "Total Private Datasets"
+msgstr "所有非公開資料集"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:354
+msgid "Total Public Datasets"
+msgstr "所有公開資料集"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:354
+msgid "Total Data Files/Resources"
+msgstr "所有資料"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:354
+msgid "Total Machine Readable/Data API Resources"
+msgstr "所有機器可讀/具資料 API 之資料"
+
+#: ckanext/dga_stats/templates/ckanext/stats/index.html:354
+msgid "Total Organizations"
+msgstr "所有組織"
+
+#~ msgid "Min. of Wave Band"
+#~ msgstr "波段最小值"
+
+#~ msgid "Max. of Wave Band"
+#~ msgstr "波段最大值"
+
+#~ msgid "Bit of Wave Band"
+#~ msgstr "波段位元值"
+
+#~ msgid "Reference URI"
+#~ msgstr "參考網址"
+
+#~ msgid "Extented Info"
+#~ msgstr "延伸資訊"
+
+#~ msgid "Theme Keywords"
+#~ msgstr "主題關鍵字"
