@@ -6583,7 +6583,7 @@ msgstr "比例尺"
 
 #: ckanext/taijiang/templates/package/snippets/package_basic_fields.html:102
 msgid "Temporal Information"
-msgstr "時間資訊"
+msgstr "時間資訊 (資料歷史年代)"
 
 #: ckanext/taijiang/templates/package/snippets/package_basic_fields.html:108
 #: ckanext/taijiang/templates/package/snippets/package_basic_fields.html:116
