@@ -6456,10 +6456,22 @@ msgstr "聯絡信箱"
 msgid "Site Statistics"
 msgstr "網站統計"
 
+#: ckanext/taijiang/templates/home/layout2.html:7
+msgid "Announcement"
+msgstr "最新公告"
+
+#: ckanext/taijiang/templates/home/layout2.html:11
+msgid "Project News"
+msgstr "計畫最新消息"
+
 #: ckanext/taijiang/templates/home/snippets/promoted.html:6
 msgid ""
 "Portuguese Drawing about Dutch Activities around Tayouan of Formosa-Taiwan."
 msgstr "1626 年葡萄牙人所繪荷蘭人在福爾摩沙 (大員-臺灣) 台江內海一帶之活動。"
+
+#: ckanext/taijiang/templates/home/snippets/news.html:7
+msgid "No latest news."
+msgstr "沒有最新消息。"
 
 #: ckanext/taijiang/templates/package/snippets/additional_info.html:12
 #: ckanext/taijiang/templates/package/snippets/package_basic_fields.html:27
@@ -6581,9 +6593,14 @@ msgstr "資料處理歷程"
 msgid "Scale"
 msgstr "比例尺"
 
-#: ckanext/taijiang/templates/package/snippets/package_basic_fields.html:102
+#: ckanext/taijiang/templates/package/snippets/package_basic_fields.html:104
+#: ckanext/taijiang/templates/snippets/date_facet_slider.html:10
 msgid "Temporal Information"
-msgstr "時間資訊 (資料歷史年代)"
+msgstr "時間資訊"
+
+#: ckanext/taijiang/templates/package/snippets/package_basic_fields.html:104
+msgid "Time Period of Dataset"
+msgstr "資料歷史年代"
 
 #: ckanext/taijiang/templates/package/snippets/package_basic_fields.html:108
 #: ckanext/taijiang/templates/package/snippets/package_basic_fields.html:116
@@ -6715,6 +6732,18 @@ msgstr "所屬子計畫"
 #: ckanext/taijiang/templates/snippets/temp_res_list.html:3
 msgid "Temporal Resolution"
 msgstr "時間解析度"
+
+#: ckanext/taijiang/templates/snippets/date_facet_slider.html:23
+msgid "Update Search"
+msgstr "更新搜尋條件"
+
+#: ckanext/taijiang/templates/snippets/time_period_list.html:4
+msgid "This shortcut provides some historical periods for filling temporal information of the dataset."
+msgstr "此捷徑提供部分歷史時期，供您快速填寫資料歷史年代。"
+
+#: ckanext/taijiang/templates/snippets/time_period_list.html:6
+msgid "Time Period Shortcut"
+msgstr "時間區間捷徑"
 
 msgid "This will be guessed automatically. Leave blank if you wish"
 msgstr "通常狀況下將被自動猜測。可以保持空白。"
