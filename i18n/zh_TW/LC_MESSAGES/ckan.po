@@ -6600,7 +6600,7 @@ msgstr "時間資訊"
 
 #: ckanext/taijiang/templates/package/snippets/package_basic_fields.html:104
 msgid "Time Period of Dataset"
-msgstr "資料歷史年代"
+msgstr "資料內容時間"
 
 #: ckanext/taijiang/templates/package/snippets/package_basic_fields.html:108
 #: ckanext/taijiang/templates/package/snippets/package_basic_fields.html:116
@@ -6748,6 +6748,18 @@ msgstr "時間區間捷徑"
 msgid "This will be guessed automatically. Leave blank if you wish"
 msgstr "通常狀況下將被自動猜測。可以保持空白。"
 
+#: ckanext/taijiang/templates/package/read.html:15
+msgid "Other Access"
+msgstr "其他存取方式"
+
+#: ckanext/taijiang/templates/package/read.html:18
+msgid "The information on this page (the dataset metadata) is also available in these formats:"
+msgstr "此頁面上的資訊 (資料集之後設資料) 也提供以下格式:"
+
+#: ckanext/taijiang/templates/package/read.html:27
+msgid "via the "
+msgstr "經由 "
+
 #: ckanext/taijiang/templates/package/snippets/package_book_fields.html:26
 #: ckanext/taijiang/templates/snippets/extended_fields.html:7
 msgid "Journal"
@@ -6771,7 +6783,7 @@ msgstr "出版地"
 #: ckanext/taijiang/templates/package/snippets/package_book_fields.html:54
 #: ckanext/taijiang/templates/snippets/extended_fields.html:11
 msgid "Publisher"
-msgstr "出版社"
+msgstr "出版單位"
 
 #: ckanext/taijiang/templates/package/snippets/package_book_fields.html:61
 #: ckanext/taijiang/templates/snippets/extended_fields.html:12
