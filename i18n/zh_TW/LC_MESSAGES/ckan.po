@@ -3442,7 +3442,7 @@ msgstr "API終端"
 #: ckan/templates/package/resource_read.html:41
 #: ckan/templates/package/snippets/resource_item.html:48
 msgid "Go to resource"
-msgstr "前往存取資源。"
+msgstr "前往存取資源"
 
 #: ckan/templates/package/resource_read.html:43
 #: ckan/templates/package/snippets/resource_item.html:45
@@ -5092,6 +5092,10 @@ msgstr "主題關鍵字"
 #: ckanext/taijiang/plugin.py:96
 msgid "Spatial Keyword"
 msgstr "空間範圍關鍵字"
+
+#: ckanext/taijiang/validators.py:86
+msgid ", should be: "
+msgstr "，應為："
 
 #: ckanext/dga_stats/templates/ckanext/stats/index.html:43
 msgid "New/Modified"
