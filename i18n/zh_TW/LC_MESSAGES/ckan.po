@@ -4996,6 +4996,10 @@ msgstr "此頁面上的資訊 (資料集之後設資料) 也提供以下格式:"
 msgid "via the "
 msgstr "經由 "
 
+#: ckanext/taijiang/templates/scheming/package/snippets/additional_info.html:107
+msgid "Basic Information"
+msgstr "基本資訊"
+
 #: ckanext/taijiang/templates/scheming/package/snippets/additional_info.html:112
 #: ckanext/taijiang/templates/scheming/package/snippets/package_form.html:50
 #: ckanext/taijiang/templates/snippets/date_facet_slider.html:10
