@@ -4961,6 +4961,10 @@ msgstr "計畫主網站"
 msgid "Contact us"
 msgstr "聯絡我們"
 
+#: ckanext/taijiang/templates/footer.html:16
+msgid "<p>Source code available on <a href=\"https://github.com/u10313335/ckanext-taijiang\" class=\"external\" target=\"_blank\">GitHub.</a></p>"
+msgstr "<p>程式碼可於 <a href=\"https://github.com/u10313335/ckanext-taijiang\" class=\"external\" target=\"_blank\">GitHub</a> 取得。</p>"
+
 #: ckanext/taijiang/templates/header.html:12
 msgid "Site Statistics"
 msgstr "網站統計"
