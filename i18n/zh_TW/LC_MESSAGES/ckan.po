@@ -5196,3 +5196,7 @@ msgstr "摘要"
 #: ckanext/spatial/templates/spatial/snippets/spatial_query.html:17
 msgid "Filter by location"
 msgstr "空間搜尋"
+
+#: ckanext/pages/plugin.py:40
+msgid "Help"
+msgstr "支援"
