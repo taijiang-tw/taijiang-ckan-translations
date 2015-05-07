@@ -399,7 +399,7 @@ msgstr "你已取消關注{0}"
 #: ckan/controllers/group.py:854 ckan/controllers/user.py:536
 #, python-format
 msgid "Unauthorized to view followers %s"
-msgstr "沒有檢視跟隨者%s的權限"
+msgstr "沒有檢視訂閱者%s的權限"
 
 #: ckan/controllers/home.py:37
 msgid "This site is currently off-line. Database is not initialised."
@@ -825,7 +825,7 @@ msgstr "你必須提供一組密碼"
 
 #: ckan/controllers/user.py:589
 msgid "Follow item not found"
-msgstr "跟隨的物件不存在"
+msgstr "訂閱的物件不存在"
 
 #: ckan/controllers/user.py:593
 msgid "{0} not found"
@@ -1543,7 +1543,7 @@ msgstr "你必須登入才能關注使用者"
 
 #: ckan/logic/action/create.py:1236
 msgid "You cannot follow yourself"
-msgstr "你無法追蹤自己"
+msgstr "你無法訂閱自己"
 
 #: ckan/logic/action/create.py:1244 ckan/logic/action/create.py:1301
 #: ckan/logic/action/create.py:1434
@@ -2042,12 +2042,12 @@ msgstr "取消"
 #: ckan/public/base/javascript/modules/follow.js:23
 #: ckan/templates/snippets/follow_button.html:14
 msgid "Follow"
-msgstr "跟隨"
+msgstr "訂閱"
 
 #: ckan/public/base/javascript/modules/follow.js:24
 #: ckan/templates/snippets/follow_button.html:9
 msgid "Unfollow"
-msgstr "取消追蹤"
+msgstr "取消訂閱"
 
 #: ckan/public/base/javascript/modules/image-upload.js:15
 msgid "Upload"
@@ -2593,7 +2593,7 @@ msgstr "確定要刪除成員：{name}嗎？"
 #: ckan/templates/user/edit.html:8 ckan/templates/user/edit_base.html:3
 #: ckan/templates/user/read_base.html:14
 msgid "Manage"
-msgstr "管理"
+msgstr "編輯"
 
 #: ckan/templates/group/edit.html:12
 msgid "Edit Group"
@@ -2617,7 +2617,7 @@ msgstr "成員"
 #: ckan/templates/user/read_base.html:49
 #: ckanext/example_theme/v18_snippet_api/templates/ajax_snippets/example_theme_popover.html:12
 msgid "Followers"
-msgstr "追蹤者"
+msgstr "訂閱者"
 
 #: ckan/templates/group/history.html:3 ckan/templates/group/history.html:6
 #: ckan/templates/package/history.html:3 ckan/templates/package/history.html:6
@@ -3795,7 +3795,7 @@ msgstr "任何包含了實用資料的檔案或連結都可以作為資源。"
 
 #: ckan/templates/package/snippets/resource_item.html:24
 msgid "Explore"
-msgstr "探索"
+msgstr "使用資料"
 
 #: ckan/templates/package/snippets/resource_item.html:36
 msgid "More information"
@@ -4279,7 +4279,7 @@ msgstr "我的群組。"
 
 #: ckan/templates/user/dashboard.html:39
 msgid "Activity from items that I'm following"
-msgstr "來自我所追蹤項目的最新動態"
+msgstr "來自我所訂閱項目的最新動態"
 
 #: ckan/templates/user/dashboard_datasets.html:17
 #: ckan/templates/user/read.html:14
@@ -4557,7 +4557,7 @@ msgstr "您沒有訂閱任何內容"
 
 #: ckan/templates/user/snippets/followers.html:9
 msgid "No followers"
-msgstr "沒有跟隨者"
+msgstr "沒有訂閱者"
 
 #: ckan/templates/user/snippets/user_search.html:5
 msgid "Search Users"
