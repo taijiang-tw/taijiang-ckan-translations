@@ -5007,8 +5007,8 @@ msgstr "基本資訊"
 #: ckanext/taijiang/templates/scheming/package/snippets/additional_info.html:112
 #: ckanext/taijiang/templates/scheming/package/snippets/package_form.html:50
 #: ckanext/taijiang/templates/snippets/date_facet_slider.html:10
-msgid "Temporal Search"
-msgstr "時間搜尋"
+msgid "Temporal Information"
+msgstr "時間資訊"
 
 #: ckanext/taijiang/templates/scheming/package/snippets/additional_info.html:117
 #: ckanext/taijiang/templates/scheming/package/snippets/package_form.html:52
@@ -5055,6 +5055,10 @@ msgstr "使用圖台新增"
 #: ckanext/taijiang/templates/scheming/package/snippets/package_form.html:65
 msgid "Miscellaneous"
 msgstr "其他資訊"
+
+#: ckanext/taijiang/templates/snippets/date_facet_slider.html:10
+msgid "Temporal Search"
+msgstr "時間搜尋"
 
 #: ckanext/taijiang/templates/snippets/date_facet_slider.html:12
 msgid "Clear"
