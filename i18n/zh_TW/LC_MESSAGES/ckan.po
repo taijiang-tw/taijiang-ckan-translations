@@ -242,7 +242,7 @@ msgstr "請求的參數必須是一個JSON編碼的形式。"
 #: ckan/controllers/group.py:795 ckan/controllers/group.py:880
 #: ckan/controllers/package.py:1288 ckan/controllers/package.py:1303
 msgid "Group not found"
-msgstr "群組不存在"
+msgstr "主題不存在"
 
 #: ckan/controllers/feed.py:234 ckan/controllers/group.py:364
 msgid "Organization not found"
@@ -250,14 +250,14 @@ msgstr "組織不存在"
 
 #: ckan/controllers/group.py:172
 msgid "Incorrect group type"
-msgstr "錯誤的群組類型"
+msgstr "錯誤的主題類型"
 
 #: ckan/controllers/group.py:192 ckan/controllers/group.py:387
 #: ckan/controllers/group.py:486 ckan/controllers/group.py:527
 #: ckan/controllers/group.py:559 ckan/controllers/group.py:882
 #, python-format
 msgid "Unauthorized to read group %s"
-msgstr "沒有權限讀取群組%s"
+msgstr "沒有權限讀取主題%s"
 
 #: ckan/controllers/group.py:285 ckan/controllers/home.py:70
 #: ckan/controllers/package.py:241 ckan/lib/helpers.py:681
@@ -284,7 +284,7 @@ msgstr "組織"
 #: ckan/templates/package/read_base.html:25
 #: ckan/templates/revision/diff.html:16 ckan/templates/revision/read.html:84
 msgid "Groups"
-msgstr "群組"
+msgstr "主題"
 
 #: ckan/controllers/group.py:287 ckan/controllers/home.py:72
 #: ckan/controllers/package.py:243 ckan/lib/helpers.py:683
@@ -312,7 +312,7 @@ msgstr "未被授權批次更新"
 
 #: ckan/controllers/group.py:446
 msgid "Unauthorized to create a group"
-msgstr "沒有權限建立群組"
+msgstr "沒有權限建立主題"
 
 #: ckan/controllers/group.py:495 ckan/controllers/package.py:338
 #: ckan/controllers/package.py:803 ckan/controllers/package.py:1436
@@ -337,7 +337,7 @@ msgstr "使用者 %r 無權修改 %s 的權限"
 #: ckan/controllers/group.py:630 ckan/controllers/group.py:706
 #, python-format
 msgid "Unauthorized to delete group %s"
-msgstr "沒有刪除%s群組的權限"
+msgstr "沒有刪除%s主題的權限"
 
 #: ckan/controllers/group.py:609
 msgid "Organization has been deleted."
@@ -345,21 +345,21 @@ msgstr "此組織已被刪除"
 
 #: ckan/controllers/group.py:611
 msgid "Group has been deleted."
-msgstr "此群組已被刪除"
+msgstr "此主題已被刪除"
 
 #: ckan/controllers/group.py:677
 #, python-format
 msgid "Unauthorized to add member to group %s"
-msgstr "沒有在群組%s中新增成員的權限"
+msgstr "沒有在主題%s中新增成員的權限"
 
 #: ckan/controllers/group.py:694
 #, python-format
 msgid "Unauthorized to delete group %s members"
-msgstr "沒有刪除群組%s中成員的權限"
+msgstr "沒有刪除主題%s中成員的權限"
 
 #: ckan/controllers/group.py:700
 msgid "Group member has been deleted."
-msgstr "群組成員已被刪除"
+msgstr "主題成員已被刪除"
 
 #: ckan/controllers/group.py:722 ckan/controllers/package.py:446
 msgid "Select two revisions before doing the comparison."
@@ -372,11 +372,11 @@ msgstr "使用者 %r 無權修改 %r"
 
 #: ckan/controllers/group.py:748
 msgid "CKAN Group Revision History"
-msgstr "CKAN群組版本歷史紀錄"
+msgstr "CKAN主題版本歷史紀錄"
 
 #: ckan/controllers/group.py:751
 msgid "Recent changes to CKAN Group: "
-msgstr "CKAN群組最近的更新："
+msgstr "CKAN主題最近的更新："
 
 #: ckan/controllers/group.py:772 ckan/controllers/package.py:496
 msgid "Log message: "
@@ -384,7 +384,7 @@ msgstr "記錄檔訊息："
 
 #: ckan/controllers/group.py:798
 msgid "Unauthorized to read group {group_id}"
-msgstr "沒有權限讀取群組{group_id}"
+msgstr "沒有權限讀取主題{group_id}"
 
 #: ckan/controllers/group.py:817 ckan/controllers/package.py:1213
 #: ckan/controllers/user.py:671
@@ -853,7 +853,7 @@ msgstr "{actor}在{dataset}資料集中新增了{tag}標籤"
 
 #: ckan/lib/activity_streams.py:67
 msgid "{actor} updated the group {group}"
-msgstr "{actor}更新了{group}群組"
+msgstr "{actor}更新了{group}主題"
 
 #: ckan/lib/activity_streams.py:70
 msgid "{actor} updated the organization {organization}"
@@ -886,7 +886,7 @@ msgstr "{actor} 更新了 {related_type} {related_item}"
 
 #: ckan/lib/activity_streams.py:92
 msgid "{actor} deleted the group {group}"
-msgstr "{actor}刪除了{group}群組"
+msgstr "{actor}刪除了{group}主題"
 
 #: ckan/lib/activity_streams.py:95
 msgid "{actor} deleted the organization {organization}"
@@ -906,7 +906,7 @@ msgstr "{actor}刪除了{dataset}資料集中的{resource}資源"
 
 #: ckan/lib/activity_streams.py:108
 msgid "{actor} created the group {group}"
-msgstr "{actor}建立了{group}群組"
+msgstr "{actor}建立了{group}主題"
 
 #: ckan/lib/activity_streams.py:111
 msgid "{actor} created the organization {organization}"
@@ -946,7 +946,7 @@ msgstr "{actor}開始關注{user}使用者"
 
 #: ckan/lib/activity_streams.py:138
 msgid "{actor} started following {group}"
-msgstr "{actor}開始關注{group}群組"
+msgstr "{actor}開始關注{group}主題"
 
 #: ckan/lib/activity_streams.py:142
 msgid ""
@@ -1262,7 +1262,7 @@ msgstr "資料集"
 #: ckanext/stats/templates/ckanext/stats/index.html:113
 #: ckanext/stats/templates_legacy/ckanext/stats/index.html:82
 msgid "Group"
-msgstr "群組"
+msgstr "主題"
 
 #: ckan/logic/converters.py:178
 msgid "Could not parse as valid JSON"
@@ -1320,7 +1320,7 @@ msgstr "關聯的"
 
 #: ckan/logic/validators.py:260
 msgid "That group name or ID does not exist."
-msgstr "此群組名稱或ID不存在。"
+msgstr "此主題名稱或ID不存在。"
 
 #: ckan/logic/validators.py:274
 msgid "Activity type"
@@ -1376,7 +1376,7 @@ msgstr "重複的Key \"%s\""
 
 #: ckan/logic/validators.py:428
 msgid "Group name already exists in database"
-msgstr "群組名稱已經被使用"
+msgstr "主題名稱已經被使用"
 
 #: ckan/logic/validators.py:434
 #, python-format
@@ -1518,7 +1518,7 @@ msgstr "REST API: 建立成員元件 %s"
 
 #: ckan/logic/action/create.py:772
 msgid "Trying to create an organization as a group"
-msgstr "嘗試建立一個組織，就像群組一樣"
+msgstr "嘗試建立一個組織，就像主題一樣"
 
 #: ckan/logic/action/create.py:859
 msgid "You must supply a package id or name (parameter \"package\")."
@@ -1560,7 +1560,7 @@ msgstr " 使用者 {username} 不存在."
 
 #: ckan/logic/action/create.py:1410 ckan/logic/action/create.py:1418
 msgid "You must be logged in to follow a group."
-msgstr "你必須登入才能關注群組"
+msgstr "你必須登入才能關注主題"
 
 #: ckan/logic/action/delete.py:68
 #, python-format
@@ -1656,7 +1656,7 @@ msgstr "使用者 %s 沒有權限建立組件"
 #: ckan/logic/auth/create.py:29 ckan/logic/auth/update.py:43
 #, python-format
 msgid "User %s not authorized to edit these groups"
-msgstr "使用者 %s 沒有權限編輯群組"
+msgstr "使用者 %s 沒有權限編輯主題"
 
 #: ckan/logic/auth/create.py:36
 #, python-format
@@ -1693,7 +1693,7 @@ msgstr "使用者 %s 沒有權限編輯組件"
 #: ckan/logic/auth/create.py:126
 #, python-format
 msgid "User %s not authorized to create groups"
-msgstr "使用者 %s 沒有權限建立群組"
+msgstr "使用者 %s 沒有權限建立主題"
 
 #: ckan/logic/auth/create.py:136
 #, python-format
@@ -1710,7 +1710,7 @@ msgstr "沒有權限建立使用者"
 
 #: ckan/logic/auth/create.py:198
 msgid "Group was not found."
-msgstr "群組不存在"
+msgstr "主題不存在"
 
 #: ckan/logic/auth/create.py:218
 msgid "Valid API key needed to create a package"
@@ -1718,7 +1718,7 @@ msgstr "有效的API Key必須建立一個組件"
 
 #: ckan/logic/auth/create.py:226
 msgid "Valid API key needed to create a group"
-msgstr "有效的API Key必須建立一個群組"
+msgstr "有效的API Key必須建立一個主題"
 
 #: ckan/logic/auth/create.py:246
 #, python-format
@@ -1728,7 +1728,7 @@ msgstr "使用者%s沒有權限新增成員"
 #: ckan/logic/auth/create.py:270 ckan/logic/auth/update.py:113
 #, python-format
 msgid "User %s not authorized to edit group %s"
-msgstr "使用者 %s 沒有權限編輯群組 %s"
+msgstr "使用者 %s 沒有權限編輯主題 %s"
 
 #: ckan/logic/auth/delete.py:34
 #, python-format
@@ -1751,12 +1751,12 @@ msgstr "使用者 %s 沒有權限刪除關連性 %s"
 #: ckan/logic/auth/delete.py:95
 #, python-format
 msgid "User %s not authorized to delete groups"
-msgstr "使用者%s沒有權限刪除群組"
+msgstr "使用者%s沒有權限刪除主題"
 
 #: ckan/logic/auth/delete.py:99
 #, python-format
 msgid "User %s not authorized to delete group %s"
-msgstr "使用者 %s 沒有權限刪除群組 %s"
+msgstr "使用者 %s 沒有權限刪除主題 %s"
 
 #: ckan/logic/auth/delete.py:116
 #, python-format
@@ -1791,7 +1791,7 @@ msgstr "使用者 %s 沒有權限讀取資料 %s"
 #: ckan/logic/auth/get.py:166
 #, python-format
 msgid "User %s not authorized to read group %s"
-msgstr "使用者 %s 沒有權限讀取群組 %s"
+msgstr "使用者 %s 沒有權限讀取主題 %s"
 
 #: ckan/logic/auth/get.py:234
 msgid "You must be logged in to access your dashboard."
@@ -1828,12 +1828,12 @@ msgstr "你必須是系統管理者才可以變更關連物件"
 #: ckan/logic/auth/update.py:165
 #, python-format
 msgid "User %s not authorized to change state of group %s"
-msgstr "使用者 %s 沒有權限改變群組的狀態 %s"
+msgstr "使用者 %s 沒有權限改變主題的狀態 %s"
 
 #: ckan/logic/auth/update.py:182
 #, python-format
 msgid "User %s not authorized to edit permissions of group %s"
-msgstr "使用者 %s 沒有權限編輯群組的許可 %s"
+msgstr "使用者 %s 沒有權限編輯主題的許可 %s"
 
 #: ckan/logic/auth/update.py:209
 msgid "Have to be logged in to edit user"
@@ -1869,7 +1869,7 @@ msgstr "有效的API Key必須編輯一個組件"
 
 #: ckan/logic/auth/update.py:291
 msgid "Valid API key needed to edit a group"
-msgstr "有效的API Key必須編輯一個群組"
+msgstr "有效的API Key必須編輯一個主題"
 
 #: ckan/model/license.py:177
 msgid "License not specified"
@@ -2551,11 +2551,11 @@ msgstr "管理者"
 
 #: ckan/templates/group/base_form_page.html:7
 msgid "Add a Group"
-msgstr "增加一個群組"
+msgstr "增加一個主題"
 
 #: ckan/templates/group/base_form_page.html:11
 msgid "Group Form"
-msgstr "群組表單"
+msgstr "主題表單"
 
 #: ckan/templates/group/confirm_delete.html:3
 #: ckan/templates/group/confirm_delete.html:15
@@ -2576,7 +2576,7 @@ msgstr "確認刪除"
 
 #: ckan/templates/group/confirm_delete.html:11
 msgid "Are you sure you want to delete group - {name}?"
-msgstr "確定要刪除群組：{name}嗎？"
+msgstr "確定要刪除主題：{name}嗎？"
 
 #: ckan/templates/group/confirm_delete_member.html:11
 #: ckan/templates/organization/confirm_delete_member.html:11
@@ -2597,7 +2597,7 @@ msgstr "編輯"
 
 #: ckan/templates/group/edit.html:12
 msgid "Edit Group"
-msgstr "編輯群組"
+msgstr "編輯主題"
 
 #: ckan/templates/group/edit_base.html:21 ckan/templates/group/members.html:3
 #: ckan/templates/organization/edit_base.html:24
@@ -2627,11 +2627,11 @@ msgstr "歷史紀錄"
 #: ckan/templates/group/index.html:13
 #: ckan/templates/user/dashboard_groups.html:7
 msgid "Add Group"
-msgstr "新增群組"
+msgstr "新增主題"
 
 #: ckan/templates/group/index.html:20
 msgid "Search groups..."
-msgstr "搜尋群組。"
+msgstr "搜尋主題。"
 
 #: ckan/templates/group/index.html:20 ckan/templates/group/read.html:16
 #: ckan/templates/organization/bulk_process.html:97
@@ -2657,12 +2657,12 @@ msgstr "根據名稱遞減排序"
 
 #: ckan/templates/group/index.html:29
 msgid "There are currently no groups for this site"
-msgstr "此網站上目前沒有任何群組"
+msgstr "此網站上目前沒有任何主題"
 
 #: ckan/templates/group/index.html:31
 #: ckan/templates/organization/index.html:31
 msgid "How about creating one?"
-msgstr "建立一個群組如何？"
+msgstr "建立一個主題如何？"
 
 #: ckan/templates/group/member_new.html:8
 #: ckan/templates/organization/member_new.html:10
@@ -2747,7 +2747,7 @@ msgstr "儲存"
 #: ckan/templates/group/member_new.html:78
 #: ckan/templates/organization/member_new.html:79
 msgid "What are roles?"
-msgstr "腳色是什麼？"
+msgstr "角色是什麼？"
 
 #: ckan/templates/group/member_new.html:81
 msgid ""
@@ -2755,22 +2755,22 @@ msgid ""
 "organization members.</p> <p><strong>Member:</strong> Can add/remove "
 "datasets from groups</p> "
 msgstr ""
-"<p><strong>管理者：</strong> 可以編輯群組資訊，以及管理群組成員。</p> "
-"<p><strong>一般成員：</strong>可以瀏覽群組的私有資料集，但無法新增資料集。</"
+"<p><strong>管理者：</strong> 可以編輯主題資訊，以及管理主題成員。</p> "
+"<p><strong>一般成員：</strong>可以瀏覽主題的私有資料集，但無法新增資料集。</"
 "p>"
 
 #: ckan/templates/group/new.html:3 ckan/templates/group/new.html:5
 #: ckan/templates/group/new.html:7
 msgid "Create a Group"
-msgstr "建立一個群組"
+msgstr "建立一個主題"
 
 #: ckan/templates/group/new_group_form.html:17
 msgid "Update Group"
-msgstr "更新群組"
+msgstr "更新主題"
 
 #: ckan/templates/group/new_group_form.html:19
 msgid "Create Group"
-msgstr "建立群組"
+msgstr "建立主題"
 
 #: ckan/templates/group/read.html:15 ckan/templates/organization/read.html:19
 #: ckan/templates/package/search.html:29
@@ -2805,7 +2805,7 @@ msgstr "搜尋資料集。"
 
 #: ckan/templates/group/snippets/feeds.html:3
 msgid "Datasets in group: {group}"
-msgstr "群組{group}中的資料集"
+msgstr "主題{group}中的資料集"
 
 #: ckan/templates/group/snippets/feeds.html:4
 #: ckan/templates/organization/snippets/feeds.html:4
@@ -2820,11 +2820,11 @@ msgstr "名稱"
 
 #: ckan/templates/group/snippets/group_form.html:10
 msgid "My Group"
-msgstr "我的群組"
+msgstr "我的主題"
 
 #: ckan/templates/group/snippets/group_form.html:18
 msgid "my-group"
-msgstr "我的群組"
+msgstr "我的主題"
 
 #: ckan/templates/group/snippets/group_form.html:20
 #: ckan/templates/organization/snippets/organization_form.html:20
@@ -2837,15 +2837,15 @@ msgstr "說明"
 
 #: ckan/templates/group/snippets/group_form.html:20
 msgid "A little information about my group..."
-msgstr "關於我的群組的資訊..."
+msgstr "關於我的主題的資訊..."
 
 #: ckan/templates/group/snippets/group_form.html:60
 msgid "Are you sure you want to delete this Group?"
-msgstr "確定要刪除這個群組嗎？"
+msgstr "確定要刪除這個主題嗎？"
 
 #: ckan/templates/group/snippets/group_form.html:64
 msgid "Save Group"
-msgstr "儲存群組"
+msgstr "儲存主題"
 
 #: ckan/templates/group/snippets/group_item.html:32
 #: ckan/templates/organization/snippets/organization_item.html:31
@@ -2869,11 +2869,11 @@ msgstr "瀏覽 {name}"
 
 #: ckan/templates/group/snippets/group_item.html:43
 msgid "Remove dataset from this group"
-msgstr "從此群組移除資料集"
+msgstr "從此主題移除資料集"
 
 #: ckan/templates/group/snippets/helper.html:4
 msgid "What are Groups?"
-msgstr "什麼是群組？"
+msgstr "什麼是主題？"
 
 #: ckan/templates/group/snippets/helper.html:8
 msgid ""
@@ -2882,7 +2882,7 @@ msgid ""
 "particular theme, or as a very simple way to help people find and search "
 "your own published datasets. "
 msgstr ""
-"您可以使用 CKAN 群組建立並管理多個資料集。組織可以代表一個主題、專案或是小"
+"您可以使用 CKAN 主題建立並管理多個資料集。主題可以代表一個主題、專案或是小"
 "組，可以幫助使用者快速找尋資料集。 "
 
 #: ckan/templates/group/snippets/history_revisions.html:10
@@ -3021,11 +3021,11 @@ msgstr "組織"
 
 #: ckan/templates/home/snippets/stats.html:22
 msgid "group"
-msgstr "群組"
+msgstr "主題"
 
 #: ckan/templates/home/snippets/stats.html:22
 msgid "groups"
-msgstr "群組"
+msgstr "主題"
 
 #: ckan/templates/home/snippets/stats.html:28
 msgid "related item"
@@ -3299,15 +3299,15 @@ msgstr "更新"
 
 #: ckan/templates/package/group_list.html:14
 msgid "Associate this group with this dataset"
-msgstr "將資料集加入此群組"
+msgstr "將資料集加入此主題"
 
 #: ckan/templates/package/group_list.html:14
 msgid "Add to group"
-msgstr "加入群組"
+msgstr "加入主題"
 
 #: ckan/templates/package/group_list.html:23
 msgid "There are no groups associated with this dataset"
-msgstr "沒有群組跟此資料集有關聯"
+msgstr "沒有主題跟此資料集有關聯"
 
 #: ckan/templates/package/new_package_form.html:15
 msgid "Update Dataset"
@@ -4193,20 +4193,20 @@ msgstr "找不到資料集"
 #: ckan/templates/snippets/search_result_text.html:21
 msgid "{number} group found for \"{query}\""
 msgid_plural "{number} groups found for \"{query}\""
-msgstr[0] "根據\"{query}\"找到{number}個群組"
+msgstr[0] "根據\"{query}\"找到{number}個主題"
 
 #: ckan/templates/snippets/search_result_text.html:22
 msgid "No groups found for \"{query}\""
-msgstr "找不到符合 \"{query}\" 的群組"
+msgstr "找不到符合 \"{query}\" 的主題"
 
 #: ckan/templates/snippets/search_result_text.html:23
 msgid "{number} group found"
 msgid_plural "{number} groups found"
-msgstr[0] "找到{number}個群組"
+msgstr[0] "找到{number}個主題"
 
 #: ckan/templates/snippets/search_result_text.html:24
 msgid "No groups found"
-msgstr "找不到群組"
+msgstr "找不到主題"
 
 #: ckan/templates/snippets/search_result_text.html:27
 msgid "{number} organization found for \"{query}\""
@@ -4275,7 +4275,7 @@ msgstr "我的組織。"
 #: ckan/templates/user/dashboard.html:22
 #: ckan/templates/user/dashboard_groups.html:12
 msgid "My Groups"
-msgstr "我的群組。"
+msgstr "我的主題。"
 
 #: ckan/templates/user/dashboard.html:39
 msgid "Activity from items that I'm following"
@@ -4295,7 +4295,7 @@ msgstr "馬上建立一個？"
 
 #: ckan/templates/user/dashboard_groups.html:20
 msgid "You are not a member of any groups."
-msgstr "你不屬於任何群組之成員。"
+msgstr "你不屬於任何主題之成員。"
 
 #: ckan/templates/user/dashboard_organizations.html:20
 msgid "You are not a member of any organizations."
@@ -4464,7 +4464,7 @@ msgstr "何不馬上註冊？"
 
 #: ckan/templates/user/new.html:28
 msgid "Create datasets, groups and other exciting things"
-msgstr "建立資料集、群組以及其他有趣的事物"
+msgstr "建立資料集、主題以及其他有趣的事物"
 
 #: ckan/templates/user/new_user_form.html:5
 msgid "username"
@@ -4628,7 +4628,7 @@ msgstr "客製化的資料描述"
 #: ckanext/example_theme/v10_custom_snippet/templates/snippets/example_theme_most_popular_groups.html:20
 #: ckanext/example_theme/v11_HTML_and_CSS/templates/snippets/example_theme_most_popular_groups.html:19
 msgid "This group has no description"
-msgstr "此群組沒有說明"
+msgstr "此主題沒有說明"
 
 #: ckanext/example_theme/v12_extra_public_dir/templates/home/snippets/promoted.html:4
 msgid "CKAN's data previewing tool has many powerful features"
@@ -4865,7 +4865,7 @@ msgstr "沒有編輯過的資料集"
 #: ckanext/stats/templates/ckanext/stats/index.html:182
 #: ckanext/stats/templates_legacy/ckanext/stats/index.html:80
 msgid "Largest Groups"
-msgstr "擁有最多資料集的的群組"
+msgstr "擁有最多資料集的主題"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:114
 #: ckanext/stats/templates_legacy/ckanext/stats/index.html:82
@@ -4874,7 +4874,7 @@ msgstr "資料集數目"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:127
 msgid "No groups"
-msgstr "沒有群組"
+msgstr "沒有主題"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:132
 #: ckanext/stats/templates/ckanext/stats/index.html:183
@@ -4934,7 +4934,7 @@ msgid ""
 "Choose a dataset attribute and find out which categories in that area have "
 "the most datasets. E.g. tags, groups, license, res_format, country."
 msgstr ""
-"挑選一個資料集屬性，找出哪個目錄中擁有最多該屬性的資料集。例如：標籤、群組、"
+"挑選一個資料集屬性，找出哪個目錄中擁有最多該屬性的資料集。例如：標籤、主題、"
 "授權、res_format、國家。"
 
 #: ckanext/stats/templates_legacy/ckanext/stats/leaderboard.html:20
@@ -4969,13 +4969,80 @@ msgstr "<p>程式碼可於 <a href=\"https://github.com/taijiang-tw\" class=\"ex
 msgid "Site Statistics"
 msgstr "網站統計"
 
-#: ckanext/taijiang/templates/home/layout2.html:7
-msgid "Announcement"
-msgstr "最新公告"
+#: ckanext/taijiang/templates/home/snippets/news.html:5
+#: ckanext/taijiang/templates/ckanext_pages/page.html:5
+#: ckanext/taijiang/templates/ckanext_pages/pages_list.html:3
+#: ckanext/taijiang/templates/ckanext_pages/pages_list.html:7
+#: ckanext/taijiang/templates/ckanext_pages/pages_list.html:12
+msgid "News"
+msgstr "最新消息"
 
-#: ckanext/taijiang/templates/home/layout2.html:11
-msgid "Project News"
-msgstr "計畫最新消息"
+#: ckanext/taijiang/templates/ckanext_pages/base_form.html:26
+#: ckanext/taijiang/templates/ckanext_pages/pages_list.html:13
+msgid "Add News"
+msgstr "新增消息"
+
+#: ckanext/taijiang/templates/ckanext_pages/base_form.html:28
+#: ckanext/taijiang/templates/ckanext_pages/pages_edit.html:3
+msgid "Edit News"
+msgstr "編輯消息"
+
+#: ckanext/taijiang/templates/ckanext_pages/base_form.html:33
+msgid "eg. News Title"
+msgstr "例如：一個新聞標題"
+
+#: ckanext/taijiang/templates/ckanext_pages/base_form.html:54
+msgid "Menu Order"
+msgstr "於選單顯示順序"
+
+#: ckanext/taijiang/templates/ckanext_pages/base_form.html:65
+msgid "Content"
+msgstr "內容"
+
+#: ckanext/taijiang/templates/ckanext_pages/base_form.html:75
+msgid "Are you sure you want to delete this news?"
+msgstr "你確定要刪除這則消息嗎？"
+
+#: ckanext/taijiang/templates/ckanext_pages/snippets/pages_list.html:19
+msgid "This news currently has no content."
+msgstr "這則消息目前沒有內容。"
+
+#: ckanext/taijiang/templates/ckanext_pages/snippets/pages_list.html:25
+msgid "There are currently no news here."
+msgstr "目前沒有最新消息。"
+
+#: ckanext/taijiang/templates/home/help.html:12
+msgid "Manuals"
+msgstr "教學文件"
+
+#: ckanext/taijiang/templates/home/help.html:14
+msgid "Manual (In Chinese)"
+msgstr "使用教學手冊"
+
+#: ckanext/taijiang/templates/home/help.html:15
+msgid "Introduction to CKAN"
+msgstr "CKAN 基礎介紹"
+
+#: ckanext/taijiang/templates/home/help.html:17
+msgid "Bulk Upload Instructions and Sample File (for uploading 20 or more datasets)"
+msgstr "大量上傳規範及範例檔案 (僅接受 20 筆以上 (含 20 筆) 之大量上傳服務)"
+
+#: ckanext/taijiang/templates/home/help.html:19
+msgid "Instructions (In Chinese)"
+msgstr "操作說明"
+
+#: ckanext/taijiang/templates/home/help.html:19
+#: ckanext/taijiang/templates/home/help.html:20
+msgid "Download Here"
+msgstr "請點此下載"
+
+#: ckanext/taijiang/templates/home/help.html:20
+msgid "Template"
+msgstr "範例檔案"
+
+#: ckanext/taijiang/templates/home/help.html:20
+msgid "Select \"File\" → \"Download as\" → \"Microsoft Excel (.xlsx)\" in the opened window."
+msgstr "並在開啟的 Google 試算表中，依序選擇「檔案」→ 「下載格式」→ 「Microsoft Excel (.xlsx)」。"
 
 #: ckanext/taijiang/templates/home/snippets/news.html:7
 msgid "No latest news."
