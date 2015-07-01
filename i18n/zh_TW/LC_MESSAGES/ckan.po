@@ -5048,11 +5048,6 @@ msgstr "並在開啟的 Google 試算表中，依序選擇「檔案」→ 「下
 msgid "No latest news."
 msgstr "沒有最新消息。"
 
-#: ckanext/taijiang/templates/home/snippets/promoted.html:6
-msgid ""
-"Portuguese Drawing about Dutch Activities around Tayouan of Formosa-Taiwan."
-msgstr "1626 年葡萄牙人所繪荷蘭人在福爾摩沙 (大員-臺灣) 台江內海一帶之活動。"
-
 #: ckanext/taijiang/templates/package/read.html:15
 msgid "Other Access"
 msgstr "其他存取方式"
@@ -5267,6 +5262,10 @@ msgstr "摘要"
 #: ckanext/spatial/templates/spatial/snippets/spatial_query.html:17
 msgid "Filter by location"
 msgstr "空間搜尋"
+
+#: ckanext/spatial/templates/spatial/snippets/dataset_map_sidebar.html:17
+msgid "Dataset extent"
+msgstr "空間範圍"
 
 #: ckanext/pages/plugin.py:40
 msgid "Help"
