@@ -2662,7 +2662,7 @@ msgstr "此網站上目前沒有任何主題"
 #: ckan/templates/group/index.html:31
 #: ckan/templates/organization/index.html:31
 msgid "How about creating one?"
-msgstr "建立一個主題如何？"
+msgstr "建立一個如何？"
 
 #: ckan/templates/group/member_new.html:8
 #: ckan/templates/organization/member_new.html:10
