@@ -4965,6 +4965,14 @@ msgstr "聯絡我們"
 msgid "<p>Source code available on <a href=\"https://github.com/taijiang-tw\" class=\"external\" target=\"_blank\">GitHub.</a></p>"
 msgstr "<p>程式碼可於 <a href=\"https://github.com/taijiang-tw\" class=\"external\" target=\"_blank\">GitHub</a> 取得。</p>"
 
+#: ckan/templates/header.html:4
+msgid "Notice: "
+msgstr "注意："
+
+#: ckan/templates/header.html:5
+msgid "All datasets in this website are moved to https://data.depositar.io. No more updates in this website."
+msgstr "本平台之所有資料集已搬遷至 data.depositar.io。本平台將不再更新。"
+
 #: ckanext/taijiang/templates/header.html:12
 msgid "Site Statistics"
 msgstr "網站統計"
